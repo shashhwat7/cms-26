@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-ink-900 font-sans antialiased;
+  }
+}
+
+/* Custom styles for tiptap editor to look like Notion */
+.ProseMirror {
+  @apply outline-none pt-4 pb-20;
+}
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: theme('colors.ink.300');
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+.drop-cap:first-letter {
+  float: left;
+  font-size: 3.5rem;
+  line-height: 2.5rem;
+  padding-top: 0.25rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}

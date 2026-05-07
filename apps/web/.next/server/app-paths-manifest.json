@@ -1,0 +1,10 @@
+{
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/vault/page": "app/vault/page.js",
+  "/vault/analytics/page": "app/vault/analytics/page.js",
+  "/vault/content/page": "app/vault/content/page.js",
+  "/vault/settings/page": "app/vault/settings/page.js",
+  "/vault/deals/page": "app/vault/deals/page.js",
+  "/vault/rights/page": "app/vault/rights/page.js"
+}

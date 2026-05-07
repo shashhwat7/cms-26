@@ -1,0 +1,57 @@
+﻿   Γû▓ Next.js 14.1.4
+
+   Creating an optimized production build ...
+node.exe : Compiler 
+edge-server 
+unexpectedly exited 
+with code: null and 
+signal: SIGTERM
+At line:1 char:1
++ & "C:\nvm4w\nodejs/nod
+e.exe" "C:\nvm4w\nodejs/
+node_modules/npm/bin/np 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (Compiler edge-s.   
+ ..signal: SIGTERM:S    
+tring) [], RemoteEx    
+ception
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+
+   Generating static pages (1/4) 
+
+   Generating static pages (2/4) 
+
+   Generating static pages (3/4) 
+
+ Γ£ô Generating static pages (4/4) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+Γöî Γùï /                                    137 B          84.4 kB
+Γö£ Γùï /_not-found                          880 B          85.2 kB
+Γö£ ╬╗ /[blogId]/dashboard                  1.25 kB        85.5 kB
+Γöö ╬╗ /[blogId]/posts/[postId]/edit        101 kB          186 kB
++ First Load JS shared by all            84.3 kB
+  Γö£ chunks/69-23bb9b30221e6167.js        29 kB
+  Γö£ chunks/fd9d1056-addadb115830898f.js  53.4 kB
+  Γöö other shared chunks (total)          1.9 kB
+
+
+╞Æ Middleware                             26.7 kB
+
+Γùï  (Static)   prerendered as static content
+╬╗  (Dynamic)  server-rendered on demand using Node.js
+

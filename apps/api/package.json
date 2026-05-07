@@ -1,0 +1,20 @@
+{
+  "name": "@cms/api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cms/db": "*",
+    "@cms/types": "*",
+    "fastify": "^4.26.2",
+    "fastify-plugin": "^5.1.0",
+    "pg-boss": "^9.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}

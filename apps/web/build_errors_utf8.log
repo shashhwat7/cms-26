@@ -1,0 +1,5 @@
+﻿src/components/BentoContentLayout.tsx(4,25): error TS2307: Cannot find module 'react-player' or its corresponding type declarations.
+src/components/ReachIndexEngine.tsx(4,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+../../packages/themes/src/ClassicTheme.tsx(2,33): error TS2307: Cannot find module '@cms/types' or its corresponding type declarations.
+../../packages/themes/src/MinimalistTheme.tsx(2,33): error TS2307: Cannot find module '@cms/types' or its corresponding type declarations.
+../../packages/themes/src/ModernTheme.tsx(2,33): error TS2307: Cannot find module '@cms/types' or its corresponding type declarations.

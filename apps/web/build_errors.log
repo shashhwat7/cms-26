@@ -1,0 +1,85 @@
+﻿   Γû▓ Next.js 14.1.4
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\nvm4w\nodejs/nod
+e.exe" "C:\nvm4w\nodejs/
+node_modules/npm/bin/np 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (Failed to compil   
+ e.:String) [], Remo    
+teException
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+
+./src/components/BentoCo
+ntentLayout.tsx:41:34
+Type error: Type '{ 
+url: string; playing: 
+boolean; width: string; 
+height: string; }' is 
+not assignable to type 
+'IntrinsicAttributes & 
+Omit<ReactPlayerProps, 
+"ref"> & RefAttributes<H
+TMLVideoElement>'.
+  Property 'url' does 
+not exist on type 
+'IntrinsicAttributes & 
+Omit<ReactPlayerProps, 
+"ref"> & RefAttributes<H
+TMLVideoElement>'.
+
+[0m [90m 39 |[39m    
+             {videoUrl 
+[33m?[39m ([0m
+[0m [90m 40 |[39m    
+               [33m<[3
+9m[33mdiv[39m classNam
+e[33m=[39m[32m"aspect
+-[9/16] w-full 
+max-h-full bg-black rela
+tive"[39m[33m>[39m[0
+m
+[0m[31m[1m>[22m[39m
+[90m 41 |[39m         
+            [33m<[39m
+[33mReactPlayer[39m url
+[33m=[39m{videoUrl} pl
+aying[33m=[39m{isPlayi
+ng} width[33m=[39m[32
+m"100%"[39m height[33m
+=[39m[32m"100%"[39m 
+[33m/[39m[33m>[39m[0
+m
+[0m [90m    |[39m    
+                        
+      
+[31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m    
+               [33m<[3
+9m[33m/[39m[33mdiv[3
+9m[33m>[39m[0m
+[0m [90m 43 |[39m    
+             ) 
+[33m:[39m ([0m
+[0m [90m 44 |[39m    
+               [33m<[3
+9m[33mdiv[39m classNam
+e[33m=[39m[32m"text-i
+nk-300 font-mono text-xs
+"[39m[33m>[39m[33mNo
+[39m media source[33m<
+[39m[33m/[39m[33mdiv
+[39m[33m>[39m[0m
